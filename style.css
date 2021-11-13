@@ -1,0 +1,238 @@
+/* <!-- ------------------------------------- profile header --------------------------------------- --> */
+
+.barraDeNavegacion {
+  background-color: #783a8f;
+}
+
+.presentation {
+  background-color: #bb92ca;
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+}
+
+.navbarhead {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+/* <!-- -------------------------------- profile header finish---------------------------- --> */
+
+/* -------profile-------- */
+.profile-body {
+  justify-content: space-around;
+  padding: 5%;
+  display: flex;
+}
+.profile-header {
+  text-align: center;
+  padding-top: 5%;
+}
+.photo1 {
+  border-radius: 50%;
+  width: 250px;
+}
+.photo {
+  text-align: right;
+}
+.about-me {
+  justify-content: space-around;
+  text-align: left;
+}
+.details {
+  padding-bottom: 10%;
+  align-items: flex-start;
+  text-align: right;
+}
+.profile-photo-2 {
+  text-align: center;
+}
+.radius-pic {
+  border-radius: 50%;
+  width: 280px;
+  transform: rotate(25deg);
+}
+
+.profile {
+  text-align: center;
+}
+
+/* ---------profile finish------ */
+.experiences {
+  background-color: #bb92ca;
+}
+.exp-header {
+  width: 100%;
+  text-align: center;
+}
+
+.contact-me {
+  background-color: #bb92ca;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.text1 {
+  height: 20px;
+  width: 370px;
+  text-align: justify;
+}
+
+#exp {
+  text-align: center;
+  background-color: #bb92ca;
+}
+
+.edu {
+  text-align: center;
+  background-color: #bb92ca;
+}
+.languages {
+  text-align: center;
+  background-color: #bb92ca;
+}
+
+.projects-style {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.experiences-h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-top: 5%;
+}
+.experiences-h2 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.experiences-h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.experiences-h4 {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 1.5;
+}
+.education-summary1 {
+  text-align: justify;
+}
+.education-summary2 {
+  text-align: center;
+}
+.experiences-h5 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 5%;
+}
+.experiences-h6 {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.experience-image {
+  margin-top: 5%;
+  max-height: 150px;
+  border-radius: 50%;
+}
+.experience-image-prov {
+  margin-top: 5%;
+  max-height: 150px;
+  border-radius: 70%;
+}
+.education-summary {
+  margin-top: 3%;
+}
+.img-container {
+  display: block;
+}
+.tasks {
+  text-align: start;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* ----------abilities-------- */
+.abilities {
+  background-color: white;
+  padding: 5%;
+  margin: 5%;
+  text-align: center;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-around;
+}
+.react-image {
+  border-radius: 60%;
+  width: 300px;
+  padding-top: 22%;
+}
+.trifecta-image {
+  border-radius: 50%;
+  width: 300px;
+}
+/* ----------abilities finish -------- */
+
+/* --------projects--------- */
+
+.lista {
+  text-align: left;
+}
+.emm {
+  text-align: left;
+}
+/* --------projects finish --------- */
+
+/* -------contact me------- */
+.contact-me {
+  text-align: center;
+  background-color: #783a8f;
+  padding: 2%;
+}
+
+#contact {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 3% 15%;
+  color: #fff;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+.social-link {
+  color: #fff;
+}
+.social-link:hover {
+  color: rgb(54, 0, 50);
+}
+@media (max-width: 770px) {
+  .jorgeimg {
+    max-width: 300px;
+  }
+  .profile-img {
+    max-width: 100px;
+  }
+}
+/* -------contact me finish------- */
